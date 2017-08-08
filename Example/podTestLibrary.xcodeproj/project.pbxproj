@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00055B4D07A20D9FBC09E5B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		00055B4D07A20D9FBC09E5B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		31DDF7092F42463D85A823FD /* Pods_podTestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33780D24905CFFA8628BF414 /* Pods_podTestLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E44352F94A25BACA81FB444 /* Pods-podTestLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-podTestLibrary_Tests/Pods-podTestLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E5D1AC1ABC72EEBBEE1CA8F /* podTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = podTestLibrary.podspec; path = ../podTestLibrary.podspec; sourceTree = "<group>"; };
-		E1BCB63BF7B6A34F2096F3BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9E5D1AC1ABC72EEBBEE1CA8F /* podTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = podTestLibrary.podspec; path = ../podTestLibrary.podspec; sourceTree = "<group>"; };
+		E1BCB63BF7B6A34F2096F3BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E9B2C1A620D6579900BF48C7 /* Pods-podTestLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-podTestLibrary_Tests/Pods-podTestLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE22CDB18250E6BC7A3DD618 /* Pods-podTestLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-podTestLibrary_Example/Pods-podTestLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE4670CD6534724731137A16 /* Pods-podTestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-podTestLibrary_Example/Pods-podTestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = SilverBulletZyp;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0830;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/podTestLibrary_Example.app/podTestLibrary_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/podTestLibrary_Example.app/podTestLibrary_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
