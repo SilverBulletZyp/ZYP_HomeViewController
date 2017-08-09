@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = self.classTitle;
     self.view.backgroundColor = [UIColor whiteColor];
 //    [self.view addSubview:self.button];
 }

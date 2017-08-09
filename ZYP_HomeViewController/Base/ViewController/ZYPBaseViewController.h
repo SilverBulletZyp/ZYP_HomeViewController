@@ -11,7 +11,7 @@
 @interface ZYPBaseViewController : UIViewController
 
 @property (nonatomic, strong) UIButton *button;
-@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *classTitle;
 @property (nonatomic, copy) NSString *className;
 - (void)onClickButton:(UIButton *)button;
 

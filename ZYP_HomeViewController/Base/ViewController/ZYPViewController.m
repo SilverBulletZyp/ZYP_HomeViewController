@@ -83,7 +83,7 @@
         Class vcClass = NSClassFromString(vcClassName);
         if (vcClass) {
             ZYPBaseViewController *vc = [[vcClass alloc]init];
-            vc.title = self.array[indexPath.row][@"name"];
+            vc.classTitle = self.array[indexPath.row][@"name"];
             vc.className = self.array[indexPath.row][@"vc"];
             [self.navigationController pushViewController:vc animated:YES];
         }
