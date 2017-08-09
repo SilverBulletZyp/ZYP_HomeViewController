@@ -22,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		267515DB1F3B05A30047D562 /* ZYP_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYP_HomeViewController.h; sourceTree = "<group>"; };
 		267D11761F39A5C20051C2CC /* ZYP_HomeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYP_HomeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267D117A1F39A5C20051C2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267D117C1F39A5C20051C2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		267D119F1F39A6C50051C2CC /* SerialSyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialSyncVC.m; sourceTree = "<group>"; };
 		267D11A11F39AB460051C2CC /* ZYPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPNavigationController.h; sourceTree = "<group>"; };
 		267D11A21F39AB460051C2CC /* ZYPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPNavigationController.m; sourceTree = "<group>"; };
-		26B104981F3ABAD6002DCCC2 /* ZYPHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPHomeController.h; sourceTree = "<group>"; };
 		26B1049A1F3ABAFC002DCCC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,7 +121,7 @@
 				267D11931F39A6340051C2CC /* ZYPBaseViewController.m */,
 				267D11941F39A6340051C2CC /* ZYPViewController.h */,
 				267D11951F39A6340051C2CC /* ZYPViewController.m */,
-				26B104981F3ABAD6002DCCC2 /* ZYPHomeController.h */,
+				267515DB1F3B05A30047D562 /* ZYP_HomeViewController.h */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
