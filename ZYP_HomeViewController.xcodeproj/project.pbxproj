@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267D117B1F39A5C20051C2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D117A1F39A5C20051C2CC /* main.m */; };
+		267D117E1F39A5C20051C2CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D117D1F39A5C20051C2CC /* AppDelegate.m */; };
+		267D11811F39A5C20051C2CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D11801F39A5C20051C2CC /* ViewController.m */; };
+		267D11841F39A5C20051C2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267D11821F39A5C20051C2CC /* Main.storyboard */; };
+		267D11861F39A5C20051C2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267D11851F39A5C20051C2CC /* Assets.xcassets */; };
+		267D11891F39A5C20051C2CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267D11871F39A5C20051C2CC /* LaunchScreen.storyboard */; };
+		267D11961F39A6340051C2CC /* ZYPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D11931F39A6340051C2CC /* ZYPBaseViewController.m */; };
+		267D11971F39A6340051C2CC /* ZYPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D11951F39A6340051C2CC /* ZYPViewController.m */; };
+		267D119D1F39A6B60051C2CC /* SerialAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D119C1F39A6B60051C2CC /* SerialAsyncVC.m */; };
+		267D11A01F39A6C50051C2CC /* SerialSyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D119F1F39A6C50051C2CC /* SerialSyncVC.m */; };
+		267D11A31F39AB460051C2CC /* ZYPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D11A21F39AB460051C2CC /* ZYPNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		267D11761F39A5C20051C2CC /* ZYP_HomeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYP_HomeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		267D117A1F39A5C20051C2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		267D117C1F39A5C20051C2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		267D117D1F39A5C20051C2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		267D117F1F39A5C20051C2CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		267D11801F39A5C20051C2CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		267D11831F39A5C20051C2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		267D11851F39A5C20051C2CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		267D11881F39A5C20051C2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		267D118A1F39A5C20051C2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267D11921F39A6340051C2CC /* ZYPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPBaseViewController.h; sourceTree = "<group>"; };
+		267D11931F39A6340051C2CC /* ZYPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPBaseViewController.m; sourceTree = "<group>"; };
+		267D11941F39A6340051C2CC /* ZYPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPViewController.h; sourceTree = "<group>"; };
+		267D11951F39A6340051C2CC /* ZYPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPViewController.m; sourceTree = "<group>"; };
+		267D119B1F39A6B60051C2CC /* SerialAsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialAsyncVC.h; sourceTree = "<group>"; };
+		267D119C1F39A6B60051C2CC /* SerialAsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialAsyncVC.m; sourceTree = "<group>"; };
+		267D119E1F39A6C50051C2CC /* SerialSyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialSyncVC.h; sourceTree = "<group>"; };
+		267D119F1F39A6C50051C2CC /* SerialSyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialSyncVC.m; sourceTree = "<group>"; };
+		267D11A11F39AB460051C2CC /* ZYPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPNavigationController.h; sourceTree = "<group>"; };
+		267D11A21F39AB460051C2CC /* ZYPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267D11731F39A5C20051C2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267D116D1F39A5C20051C2CC = {
+			isa = PBXGroup;
+			children = (
+				267D11781F39A5C20051C2CC /* ZYP_HomeViewController */,
+				267D11771F39A5C20051C2CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267D11771F39A5C20051C2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267D11761F39A5C20051C2CC /* ZYP_HomeViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267D11781F39A5C20051C2CC /* ZYP_HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				267D117C1F39A5C20051C2CC /* AppDelegate.h */,
+				267D117D1F39A5C20051C2CC /* AppDelegate.m */,
+				267D117F1F39A5C20051C2CC /* ViewController.h */,
+				267D11801F39A5C20051C2CC /* ViewController.m */,
+				267D119B1F39A6B60051C2CC /* SerialAsyncVC.h */,
+				267D119C1F39A6B60051C2CC /* SerialAsyncVC.m */,
+				267D119E1F39A6C50051C2CC /* SerialSyncVC.h */,
+				267D119F1F39A6C50051C2CC /* SerialSyncVC.m */,
+				267D11901F39A6340051C2CC /* Base */,
+				267D11821F39A5C20051C2CC /* Main.storyboard */,
+				267D11851F39A5C20051C2CC /* Assets.xcassets */,
+				267D11871F39A5C20051C2CC /* LaunchScreen.storyboard */,
+				267D118A1F39A5C20051C2CC /* Info.plist */,
+				267D11791F39A5C20051C2CC /* Supporting Files */,
+			);
+			path = ZYP_HomeViewController;
+			sourceTree = "<group>";
+		};
+		267D11791F39A5C20051C2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267D117A1F39A5C20051C2CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267D11901F39A6340051C2CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				267D11911F39A6340051C2CC /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		267D11911F39A6340051C2CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				267D11A11F39AB460051C2CC /* ZYPNavigationController.h */,
+				267D11A21F39AB460051C2CC /* ZYPNavigationController.m */,
+				267D11921F39A6340051C2CC /* ZYPBaseViewController.h */,
+				267D11931F39A6340051C2CC /* ZYPBaseViewController.m */,
+				267D11941F39A6340051C2CC /* ZYPViewController.h */,
+				267D11951F39A6340051C2CC /* ZYPViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267D11751F39A5C20051C2CC /* ZYP_HomeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267D118D1F39A5C30051C2CC /* Build configuration list for PBXNativeTarget "ZYP_HomeViewController" */;
+			buildPhases = (
+				267D11721F39A5C20051C2CC /* Sources */,
+				267D11731F39A5C20051C2CC /* Frameworks */,
+				267D11741F39A5C20051C2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYP_HomeViewController;
+			productName = ZYP_HomeViewController;
+			productReference = 267D11761F39A5C20051C2CC /* ZYP_HomeViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267D116E1F39A5C20051C2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵云鹏";
+				TargetAttributes = {
+					267D11751F39A5C20051C2CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 267D11711F39A5C20051C2CC /* Build configuration list for PBXProject "ZYP_HomeViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 267D116D1F39A5C20051C2CC;
+			productRefGroup = 267D11771F39A5C20051C2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267D11751F39A5C20051C2CC /* ZYP_HomeViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267D11741F39A5C20051C2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267D11891F39A5C20051C2CC /* LaunchScreen.storyboard in Resources */,
+				267D11861F39A5C20051C2CC /* Assets.xcassets in Resources */,
+				267D11841F39A5C20051C2CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267D11721F39A5C20051C2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267D11811F39A5C20051C2CC /* ViewController.m in Sources */,
+				267D119D1F39A6B60051C2CC /* SerialAsyncVC.m in Sources */,
+				267D117E1F39A5C20051C2CC /* AppDelegate.m in Sources */,
+				267D11A31F39AB460051C2CC /* ZYPNavigationController.m in Sources */,
+				267D117B1F39A5C20051C2CC /* main.m in Sources */,
+				267D11971F39A6340051C2CC /* ZYPViewController.m in Sources */,
+				267D11A01F39A6C50051C2CC /* SerialSyncVC.m in Sources */,
+				267D11961F39A6340051C2CC /* ZYPBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		267D11821F39A5C20051C2CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267D11831F39A5C20051C2CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		267D11871F39A5C20051C2CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267D11881F39A5C20051C2CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267D118B1F39A5C20051C2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		267D118C1F39A5C20051C2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267D118E1F39A5C30051C2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYP_HomeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyunpeng.ZYP-HomeViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		267D118F1F39A5C30051C2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYP_HomeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyunpeng.ZYP-HomeViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267D11711F39A5C20051C2CC /* Build configuration list for PBXProject "ZYP_HomeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267D118B1F39A5C20051C2CC /* Debug */,
+				267D118C1F39A5C20051C2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267D118D1F39A5C30051C2CC /* Build configuration list for PBXNativeTarget "ZYP_HomeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267D118E1F39A5C30051C2CC /* Debug */,
+				267D118F1F39A5C30051C2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267D116E1F39A5C20051C2CC /* Project object */;
+}
