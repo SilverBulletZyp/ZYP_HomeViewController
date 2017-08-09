@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "Classes", "Base/ViewController/*.{h,m}"
+  s.source       = { :git => "https://github.com/SilverBulletZyp/ZYP_HomeViewController.git", :commit => "b001743fbfe55b523f9279d4ba87c02f3b001418" }
+  s.source_files  = "Classes", "ZYP_HomeViewController/Base/ViewController/*.{h,m}"
   # "Classes", "iOS_Category/Classes/**/*.{h,m}"
 # "Base/ViewController/*.{h,m}"
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
