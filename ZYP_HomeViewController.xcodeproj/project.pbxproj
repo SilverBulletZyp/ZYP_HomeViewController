@@ -332,7 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYP_HomeViewController/Base/ViewController/ZYPHomeController.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ZYP_HomeViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyunpeng.ZYP-HomeViewController";
@@ -344,7 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYP_HomeViewController/Base/ViewController/ZYPHomeController.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ZYP_HomeViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyunpeng.ZYP-HomeViewController";
