@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint ZYPHomeController.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ZYP_HomeViewController.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ZYPHomeController"
+  s.name         = "ZYP_HomeViewController"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZYPHomeController."
+  s.summary      = "A short description of ZYP_HomeViewController."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ZYPHomeController"
+  s.homepage     = "http://EXAMPLE/ZYP_HomeViewController"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ZYPHomeController.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://EXAMPLE/ZYP_HomeViewController.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
