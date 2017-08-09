@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYP_HomeViewController"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "ZYP_HomeViewController for Project Homepage."
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +96,8 @@ Pod::Spec.new do |s|
 # "Base/ViewController/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
-
+  s.public_header_files = 'ZYP_HomeViewController/Base/ViewController/ZYPViewController.h'
+  s.source_files = 'ZYP_HomeViewController/Base/ViewController/ZYPViewController.h'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

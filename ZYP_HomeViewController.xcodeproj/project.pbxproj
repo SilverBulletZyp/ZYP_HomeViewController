@@ -18,6 +18,7 @@
 		267D119D1F39A6B60051C2CC /* SerialAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D119C1F39A6B60051C2CC /* SerialAsyncVC.m */; };
 		267D11A01F39A6C50051C2CC /* SerialSyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D119F1F39A6C50051C2CC /* SerialSyncVC.m */; };
 		267D11A31F39AB460051C2CC /* ZYPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D11A21F39AB460051C2CC /* ZYPNavigationController.m */; };
+		26B1049B1F3ABAFC002DCCC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B1049A1F3ABAFC002DCCC2 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		267D119F1F39A6C50051C2CC /* SerialSyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialSyncVC.m; sourceTree = "<group>"; };
 		267D11A11F39AB460051C2CC /* ZYPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPNavigationController.h; sourceTree = "<group>"; };
 		267D11A21F39AB460051C2CC /* ZYPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPNavigationController.m; sourceTree = "<group>"; };
+		26B104981F3ABAD6002DCCC2 /* ZYPHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPHomeController.h; sourceTree = "<group>"; };
+		26B1049A1F3ABAFC002DCCC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B1049B1F3ABAFC002DCCC2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 			children = (
 				267D11781F39A5C20051C2CC /* ZYP_HomeViewController */,
 				267D11771F39A5C20051C2CC /* Products */,
+				26B104991F3ABAFC002DCCC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,8 +121,17 @@
 				267D11931F39A6340051C2CC /* ZYPBaseViewController.m */,
 				267D11941F39A6340051C2CC /* ZYPViewController.h */,
 				267D11951F39A6340051C2CC /* ZYPViewController.m */,
+				26B104981F3ABAD6002DCCC2 /* ZYPHomeController.h */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		26B104991F3ABAFC002DCCC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B1049A1F3ABAFC002DCCC2 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYP_HomeViewController/Base/ViewController/ZYPHomeController.pch";
 				INFOPLIST_FILE = ZYP_HomeViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyunpeng.ZYP-HomeViewController";
@@ -329,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYP_HomeViewController/Base/ViewController/ZYPHomeController.pch";
 				INFOPLIST_FILE = ZYP_HomeViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyunpeng.ZYP-HomeViewController";
@@ -355,6 +371,7 @@
 				267D118F1F39A5C30051C2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
