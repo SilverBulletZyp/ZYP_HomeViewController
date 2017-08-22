@@ -33,7 +33,7 @@ pod update
 
 * input class name in `AppDelegate.m`
 
-```c
+```objective-c
 #import "AppDelegate.h"
 #import "ZYP_HomeViewController.h"
 ```
