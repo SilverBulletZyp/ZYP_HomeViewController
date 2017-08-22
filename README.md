@@ -1,7 +1,7 @@
 # ZYP_HomeViewController
 
 
-## How to use?
+## How to build?
 
 
 * initialize Podfile
@@ -28,4 +28,20 @@ end
 pod update
 ```
 
+## How to use?
 
+
+* input class name in `AppDelegate.m`
+
+```
+#import "AppDelegate.h"
+#import "ZYP_HomeViewController.h"
+```
+
+* function `didFinishLaunchingWithOptions` add content
+
+```objective-c
+NSArray *array = @[@{@"name":@"Title 1",@"vc":@"ClassName1"},@{@"name":@"Title 2",@"vc":@"ClassName2"},];
+ZYPNavigationController *nav = [[ZYPNavigationController alloc]initWithTitle:@"HomeTitle" vcArray:array];
+self.window.rootViewController = nav;
+```
