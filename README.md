@@ -1,19 +1,18 @@
 # ZYP_HomeViewController
 
-------
 
 ## How to use?
 
 
 * initialize Podfile
 
-```
+```vim
 vim Podfile
 ```
 
 * input
 
-```
+```ruby
 project "xxx.xcodeproj"
 
 platform:ios,'xxx'
@@ -25,6 +24,8 @@ end
 
 * update
 
-```
+```vim
 pod update
 ```
+
+
