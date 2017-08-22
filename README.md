@@ -33,7 +33,7 @@ pod update
 
 * input class name in `AppDelegate.m`
 
-```
+```c
 #import "AppDelegate.h"
 #import "ZYP_HomeViewController.h"
 ```
@@ -45,3 +45,5 @@ NSArray *array = @[@{@"name":@"Title 1",@"vc":@"ClassName1"},@{@"name":@"Title 2
 ZYPNavigationController *nav = [[ZYPNavigationController alloc]initWithTitle:@"HomeTitle" vcArray:array];
 self.window.rootViewController = nav;
 ```
+
+
