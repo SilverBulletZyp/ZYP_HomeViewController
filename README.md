@@ -38,6 +38,13 @@ pod update
 #import "ZYP_HomeViewController.h"
 ```
 
+* add class inheritance `ZYPBaseViewController`
+
+```
+ClassName1.h/ClassName1.m
+ClassName2.h/ClassName2.m
+```
+
 * function `didFinishLaunchingWithOptions` add content
 
 ```objective-c
